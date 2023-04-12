@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         val SB_ngredient=findViewById<Button>(R.id.searchByIng)
 
         SB_ngredient.setOnClickListener{
-           // val intent = Intent(this, Search_By_Ingredient::class.java)
+            val intent = Intent(this, Search_By_Ingredient::class.java)
             startActivity(intent)
         }
         addMealsDb.setOnClickListener {
