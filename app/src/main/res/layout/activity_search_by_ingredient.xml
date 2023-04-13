@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/poppins_bold"
-            android:text="food_search_here"
+            android:text="Search your foods here"
             android:textAlignment="center"
             android:textColor="#131313"
             android:textSize="31sp"
@@ -64,7 +64,7 @@
             android:layout_marginBottom="1dp"
             android:fontFamily="@font/poppins_bold"
             android:paddingVertical="10dp"
-            android:text="searchButton"
+            android:text="search Button"
             android:textStyle="bold"
             app:cornerRadius="20dp" />
 

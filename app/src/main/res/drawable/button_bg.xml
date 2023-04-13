@@ -8,6 +8,6 @@
 
         android:color="@color/grey" />
 
-    <solid android:color="@color/orange" />
+    <solid android:color="@color/yellow" />
 
 </shape>

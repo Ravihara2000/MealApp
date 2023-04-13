@@ -11,5 +11,7 @@
     <color name="lightBlue">#95B7DA</color>
     <color name="lightOr">#C5785F</color>
     <color name="grey">#9CABB4</color>
+    <color name="bGrey">#30323d</color>
+    <color name="yellow">#e08e1b</color>
 
 </resources>
