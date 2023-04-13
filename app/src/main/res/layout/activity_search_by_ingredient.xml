@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="top"
+    android:background="@color/bGrey"
 
     android:orientation="vertical"
     app:circularflow_defaultRadius="@dimen/cardview_default_radius"
@@ -25,7 +26,7 @@
             android:fontFamily="@font/poppins_bold"
             android:text="Search your foods here"
             android:textAlignment="center"
-            android:textColor="#131313"
+            android:textColor="@color/white"
             android:textSize="31sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -34,24 +35,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ECEBE8"
-        android:backgroundTint="#FFD200"
+        android:backgroundTint="@color/bGrey"
         android:elevation="20dp"
         android:orientation="vertical"
         android:paddingHorizontal="20dp">
 
         <EditText
             android:id="@+id/search_bar"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="5dp"
             android:autofillHints=""
-            android:background="#E19D9D"
             android:backgroundTint="#F8F0A6"
             android:elevation="20dp"
             android:fontFamily="@font/poppins_medium"
             android:hint="Seaech Here."
+            android:layout_marginLeft="17dp"
+            android:background="@drawable/rounded_edittext"
             android:inputType="textPersonName"
+
             android:textAlignment="center" />
 
         <Button
@@ -64,7 +67,7 @@
             android:layout_marginBottom="1dp"
             android:fontFamily="@font/poppins_bold"
             android:paddingVertical="10dp"
-            android:text="search Button"
+            android:text="search"
             android:textStyle="bold"
             app:cornerRadius="20dp" />
 
