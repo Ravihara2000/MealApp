@@ -33,7 +33,7 @@
         android:layout_marginTop="22dp"
         android:backgroundTint="#FFD200"
         android:fontFamily="@font/poppins_bold"
-
+        android:text="Add Meals to DB"
         android:textColor="#0C0C0C"
         android:textSize="20sp"
         app:cornerRadius="15dp"
@@ -49,7 +49,7 @@
         android:layout_marginTop="31dp"
         android:backgroundTint="#FFD200"
         android:fontFamily="@font/poppins_bold"
-
+        android:text="Search for Meals By Ingredient"
         android:textColor="#0C0C0C"
         android:textSize="20sp"
         app:cornerRadius="15dp"
@@ -68,6 +68,7 @@
         android:textColor="#0C0C0C"
         android:textSize="20sp"
         app:cornerRadius="15dp"
+        android:text="Search for Meals"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

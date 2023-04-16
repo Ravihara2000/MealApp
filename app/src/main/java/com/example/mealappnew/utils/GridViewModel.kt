@@ -1,7 +1,8 @@
-package com.example.meal_preparation_application.utils
+package com.example.mealappnew.utils
 
 import android.graphics.drawable.BitmapDrawable
-import com.example.meal_preparation_application.classes.Meals
+import com.example.mealapp2.classes.Meals
+
 
 //source - https://www.geeksforgeeks.org/android-gridview-in-kotlin/
 // on below line we are creating a modal class.

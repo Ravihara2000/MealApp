@@ -19,7 +19,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.isVisible
 import androidx.room.Room
-import com.example.meal_preparation_application.utils.GridViewModal
+import com.example.mealappnew.utils.GridViewModal
 import com.example.mealapp2.R
 import com.example.mealapp2.classes.AppDatabase
 import com.example.mealapp2.classes.Meals

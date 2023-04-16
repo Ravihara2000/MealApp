@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">MealAppNew</string>
+    <string name="app_name">Ready Meal</string>
+    <string name="no_waiting_for_food">No waiting for food</string>
+    <string name="search_for_meals_by_ingredient">Search for Meals By Ingredient</string>
+    <string name="add_meals_to_db">Add Meals to DB</string>
+    <string name="about_me">About me</string>
+    <string name="search_for_meals">Search for Meals</string>
+    <string name="food_search_here">Search Ingredient Here</string>
+    <string name="searchButton"> Retrieve Meals</string>
+    <string name="ready_meal">READY MEAL</string>
+    <string name="search_here_meal_or_ingredient_nname">Search Here Meal or Ingredient \nname</string>
+    <string name="meal_image">meal Image</string>
 </resources>

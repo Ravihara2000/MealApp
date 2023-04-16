@@ -17,7 +17,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 
-import com.example.meal_preparation_application.utils.GridViewModal
+import com.example.mealappnew.utils.GridViewModal
 import com.example.mealapp2.R
 
 //source - https://www.geeksforgeeks.org/android-gridview-in-kotlin/
