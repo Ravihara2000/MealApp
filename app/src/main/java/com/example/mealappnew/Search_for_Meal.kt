@@ -6,22 +6,24 @@ import android.content.Intent
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.text.LineBreaker
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
+import android.os.Build
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.TypedValue
 import android.view.View
 import android.widget.*
+import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.isVisible
 import androidx.room.Room
+import com.example.meal_preparation_application.utils.GridViewModal
 import com.example.mealapp2.R
-import com.example.mealappnew.classes.AppDatabse
-import com.example.mealappnew.classes.Meals
+import com.example.mealapp2.classes.AppDatabase
+import com.example.mealapp2.classes.Meals
 import com.example.mealappnew.utils.GridRVAdeptor
-import com.example.mealappnew.utils.GridViewModal
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import java.lang.Integer.min
@@ -76,6 +78,7 @@ class Search_for_Meal : AppCompatActivity() {
             ) {
             }
 
+            @RequiresApi(Build.VERSION_CODES.O)
             override fun onTextChanged(
                 onChangeWord: CharSequence, start: Int,
                 before: Int, count: Int
@@ -115,6 +118,7 @@ class Search_for_Meal : AppCompatActivity() {
         })
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     private fun createMiniCards() {
         //
         if (searchbarTextField.text.isEmpty()){

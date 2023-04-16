@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="355dp"
-    android:layout_height="700dp"
+    android:layout_width="700dp"
+    android:layout_height="370dp"
     android:layout_gravity="center"
-    android:background="@drawable/moredetals"
+    android:background="@drawable/extraback_lands"
     app:cornerRadius="100dp"
     android:orientation="vertical">
 
@@ -181,9 +181,9 @@
 
                 <LinearLayout
                     android:id="@+id/In_layout"
-                    android:layout_width="140dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
+                    android:layout_width="227dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="140dp"
                     android:orientation="vertical" />
 
                 <LinearLayout
@@ -255,9 +255,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="15dp"
-                android:fontFamily="@font/poppins_bold"
+                android:layout_marginBottom="40dp"
                 android:backgroundTint="#FFD200"
+                android:fontFamily="@font/poppins_bold"
                 android:text="Save meal to Database"
                 android:textColor="@color/black"
                 android:textSize="15sp"

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Search_for_Meal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#FFD200"
+        android:elevation="30dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="⬅️"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:autofillHints=""
+
+            android:backgroundTint="#F8F0A6"
+            android:defaultFocusHighlightEnabled="true"
+            android:drawableEnd="@android:drawable/ic_menu_search"
+            android:elevation="25dp"
+            android:focusable="auto"
+            android:fontFamily="@font/poppins_medium"
+            android:foregroundGravity="center_vertical"
+            android:inputType="textPersonName"
+            android:paddingStart="35dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/count_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Total Results Found : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="6dp"
+        android:horizontalSpacing="6dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+
+
+</LinearLayout>
